@@ -28,7 +28,7 @@ public class ServerMain
 
     public void run() throws Exception
     {
-        Server server = new Server(8080);
+        Server server = new Server(8181);
 
         URL webRootLocation = this.getClass().getResource("/webroot/index.html");
         if (webRootLocation == null)
